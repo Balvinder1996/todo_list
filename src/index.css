@@ -1,0 +1,12 @@
+#fixed
+{
+  height: 350px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: whitesmoke;
+}
+#fixed_hidden
+{
+  height: 350px;
+  
+}
