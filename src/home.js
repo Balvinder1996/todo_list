@@ -42,11 +42,20 @@ class Home extends React.Component {
     newarray.splice(indices, 1)
     this.setState(
       {
-        
-        status:false,
         array: newarray
       }
     )
+    if(!this.state.array.length)
+    {
+      this.setState
+      (
+        {
+          status:false
+        }
+      )
+
+    }
+    
 
   }
   edit = (items, indices) => {
